@@ -3,7 +3,7 @@ proof of concept for upcoming project
 
 How it works
 
-![ELF format (src wikipedia)](elf-layout.png)
+![ELF format (src wikipedia)](docs/elf-layout.png)
 
 1. assembly nasm code into ELF
 2. extract .text from ELF (raw machine code)
