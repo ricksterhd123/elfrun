@@ -1,10 +1,9 @@
 # elfrun
 proof of concept for upcoming project
 
+<img src="docs/elf-layout.png" width="250" height="250">
+
 How it works
-
-![ELF format (src wikipedia)](docs/elf-layout.png)
-
 1. assembly nasm code into ELF
 2. extract .text from ELF (raw machine code)
 3. use xxd to load .text bytes into C header file
